@@ -1,0 +1,86 @@
+#container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #home{
+     background-color:whitesmoke;
+     height: 580px;
+     display: flex;
+     
+ }
+ #nav{
+     position: relative;
+     right: -200px;
+     top: 200px;
+ }
+ #socials{
+     height: 70px;
+     width: 50px;
+     margin: 40px 10px 10px 50px;
+     color: black;
+ }
+ #socials:hover{
+       color: aquamarine;
+ }
+   .social-media{
+     margin-top: 30px -20px 0 10px;
+     display: flex;
+     width: 300px;
+     justify-content: center;
+ }  
+ nav>ul>li>a{
+     text-decoration: none;
+     font-family: 'Source Code Pro', monospace;
+     font-size: 40px; 
+     color: black;
+ }
+ nav>ul>li>a:hover{
+ color: aquamarine;
+ }
+ nav>ul>li{
+     display:block;
+ }
+ #name{
+     font-family:'Source Sans Pro', sans-serif;
+     font-size: 40px;
+     font-weight: 700;
+     text-align: right;
+     padding-right: 120px;
+     padding-top: 10%;
+     background-image: url(pic.jpg);
+     background-position: 50%;
+     background-attachment: local;
+     background-repeat: no-repeat;
+     opacity: 0.3;
+     width:40%;
+     border-radius: 7px;  
+ }
+ #mantra{
+     text-align:right;
+     padding-top: 130px;
+     padding-right: 30px;
+     font-family:'Source Code Pro', monospace;  
+ }
+ .list{
+     font-family:'Source Code Pro', monospace;
+ }
+ #projects{
+     padding-top: 100px;
+     height:600px;
+     display: flex;
+     justify-content: space-around;
+ }
+ h2 {
+     text-align: center;
+ }
+ #gympage,#resort{
+     width: 28%;
+ }
+ #aboutme{
+     height:480px;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ #why{
+     padding-left:70%; 
+ }
+ 
